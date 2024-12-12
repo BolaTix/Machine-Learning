@@ -9,5 +9,27 @@ Developing a recommendation system for BolaTix that delivers personalized match 
 - **`RekomendasiHistory.ipnyb`**
   
 ## ML Architecture
+![image](https://github.com/BolaTix/Machine-Learning/blob/main/Images/ML%20Architecture.png)
 
 ## Model Performance
+| Metric                       | Value         |
+|------------------------------|---------------|
+| **Cross-Validation Results** |               |
+| Average Validation Loss      | 0.1226        |
+| Standard Deviation           | 0.0055        |
+| **Model Evaluation**         |               |
+| Mean Squared Error (MSE)     | 4.5073        |
+| Mean Absolute Error (MAE)    | 1.6780        |
+| **Second Evaluation**        |               |
+| Mean Squared Error (MSE)     | 4.3175        |
+| Mean Absolute Error (MAE)    | 1.6484        |
+
+The model was trained for 100 epochs with the following validation loss trends:
+| Epoch | Training Loss | Validation Loss |
+|-------|---------------|-----------------|
+| 1     | 3.2054        | 0.8781          |
+| 10    | 0.1166        | 0.1172          |
+| 50    | 0.0830        | 0.0900          |
+| 100   | 0.0794        | 0.0884          |
+
+![image](https://github.com/BolaTix/Machine-Learning/blob/main/Images/hasil%20training.png)
